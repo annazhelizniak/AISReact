@@ -1,4 +1,118 @@
-# Getting Started with Create React App
+
+# Store Inventory and Financial Management System
+
+Full-stack web application for managing store inventory, sales transactions, and financial records in a mini-supermarket.
+
+The system provides tools for tracking products, managing inventory, processing sales, and monitoring financial activity through a REST API and a web interface.
+
+---
+
+# Tech Stack
+
+**Frontend**
+- React
+
+**Backend**
+- Node.js
+- Express.js
+- REST API
+
+**Database**
+- SQLite 
+
+---
+
+# Key Features
+
+• Inventory management for store products  
+• Sales transaction tracking with receipt generation  
+• Financial records monitoring  
+• Customer loyalty card support with discounts  
+• Role-based access for **managers** and **cashiers**  
+• Product search, filtering, and category management  
+• Sales analytics and reporting  
+
+---
+
+# System Overview
+
+The system supports two types of users:
+
+### Manager
+Managers control store operations and can:
+
+- Manage products, categories, and inventory
+- Manage employees and customer cards
+- View sales history and financial reports
+- Analyze product sales over selected time periods
+
+### Cashier
+Cashiers focus on sales operations and can:
+
+- Process product sales and generate receipts
+- Search products and customer cards
+- View personal sales history
+- Register new customers
+
+---
+
+# Database Design
+
+The relational database schema includes the following main entities:
+
+- **Product**
+- **Store Product**
+- **Category**
+- **Employee**
+- **Customer Card**
+- **Receipt**
+- **Sale**
+
+The schema supports:
+
+- product categorization
+- inventory quantity tracking
+- receipt generation with purchased items
+- customer discount cards
+- employee role management
+
+The ER model and relational schema are defined in the project documentation.
+
+---
+
+# API
+
+The backend exposes approximately **25 REST API endpoints** for:
+
+- product management
+- inventory updates
+- receipt creation
+- sales tracking
+- customer card management
+- employee management
+
+These endpoints enable communication between the React frontend and the SQLite database.
+
+---
+
+# Example Functionalities
+
+- Add, update, and delete products
+- Track product quantities in the store
+- Register new employees and customers
+- Create receipts with multiple purchased products
+- Calculate total price and VAT automatically
+- Generate reports on product sales
+
+The system keeps sales records for analysis and reporting.
+
+---
+
+
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
